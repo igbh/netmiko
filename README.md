@@ -5,11 +5,14 @@
 [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
 <img src="https://ktbyers.github.io/netmiko/images/netmiko_logo_gh.png" width="320">
+【工作中用到python和netmiko库做为网络设备的运维工具，初学Git，斗胆尝试翻译netmiko的说明文档，
+水平不高，有高手看到错误，请一定指出，谢谢】
 
 Netmiko
 =======
 
 Multi-vendor library to simplify Paramiko SSH connections to network devices
+一个支持多厂商设备的简化版Paramiko，使用ssh连接到网络设备。
 
 ## Quick Links
 
