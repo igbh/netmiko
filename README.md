@@ -12,6 +12,7 @@ Netmiko
 =======
 
 Multi-vendor library to simplify Paramiko SSH connections to network devices
+
 一个支持多厂商设备的简化版Paramiko，使用ssh连接到网络设备。
 
 ## Quick Links
@@ -26,18 +27,24 @@ Multi-vendor library to simplify Paramiko SSH connections to network devices
 - [Questions/Discussion](https://ktbyers.github.io/netmiko/#questionsdiscussion)
 
 
-## Supported Platforms
+## Supported Platforms  支持的平台
 
 Netmiko supports a wide range of devices. These devices fall into three categories:
-- Regularly Tested
-- Limited Testing
-- Experimental
+Netmiko支持的设备范围很多，主要包括三类：
+
+- Regularly Tested 常用测试
+- Limited Testing 有限测试
+- Experimental 实验
+以上三类语句不通啊。。。，设备分三类？还是程序的功能分三类？
 
 Regularly tested means we try to run our full test suite against that set of devices prior to each Netmiko release.
+常用测试意思是在发布之前将会在设备上进行全部的测试。
 
 Limited testing means the config and show operation system tests passed against a test on that platform at one point in time so we are reasonably comfortable the driver should generally work.
+有限测试意思是配置和show操作在测试的时候通过了，我们对运行的结果比较满意。
 
 Experimental means that we reviewed the PR and the driver seems reasonable, but we don't have good data on whether the driver fully passes the unit tests or how reliably it works.
+实验意思是我们审查了PR？设备看出来反应正常，但没有很好的数据显示设备通过了全部测试或者设备是否在稳定的工作。（这个我实在不理解啥意思）
 
 Click [PLATFORMS](PLATFORMS.md) for a list of all supported platforms.
 
